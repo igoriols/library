@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23BEAAE12374AB8C0057999A"
-               BuildableName = "Library_iOS.framework"
+               BuildableName = "Library.framework"
                BlueprintName = "Library-iOS"
                ReferencedContainer = "container:Library.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23BEAAE12374AB8C0057999A"
-            BuildableName = "Library_iOS.framework"
+            BuildableName = "Library.framework"
             BlueprintName = "Library-iOS"
             ReferencedContainer = "container:Library.xcodeproj">
          </BuildableReference>

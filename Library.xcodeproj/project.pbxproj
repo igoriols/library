@@ -13,6 +13,7 @@
 		23BEAAFF2374ACE70057999A /* tvOSClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEAAFE2374ACE70057999A /* tvOSClass.swift */; };
 		23BEAB012374AE3B0057999A /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEAB002374AE3B0057999A /* SharedClass.swift */; };
 		23BEAB022374AE3B0057999A /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BEAB002374AE3B0057999A /* SharedClass.swift */; };
+		23BEAB082374B5F00057999A /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BEAB072374B5F00057999A /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		23BEAAFC2374ACAB0057999A /* iOSClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClass.swift; sourceTree = "<group>"; };
 		23BEAAFE2374ACE70057999A /* tvOSClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSClass.swift; sourceTree = "<group>"; };
 		23BEAB002374AE3B0057999A /* SharedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		23BEAB072374B5F00057999A /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		237798F02374B92900BF519B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23BEAB062374B5AC0057999A /* Views */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		23BEAAD82374AB8C0057999A = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +75,8 @@
 		23BEAAE42374AB8C0057999A /* Library-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				23BEAAFC2374ACAB0057999A /* iOSClass.swift */,
+				237798F02374B92900BF519B /* Resources */,
+				23BEAB042374B58F0057999A /* Classes */,
 			);
 			path = "Library-iOS";
 			sourceTree = "<group>";
@@ -73,7 +84,7 @@
 		23BEAAF32374ABD80057999A /* Library-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				23BEAAFE2374ACE70057999A /* tvOSClass.swift */,
+				23BEAB052374B59A0057999A /* Classes */,
 			);
 			path = "Library-tvOS";
 			sourceTree = "<group>";
@@ -81,11 +92,43 @@
 		23BEAAFA2374AC180057999A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				23BEAB032374B57E0057999A /* Classes */,
 				23BEAAE52374AB8C0057999A /* Library.h */,
 				23BEAAE62374AB8C0057999A /* Info.plist */,
-				23BEAB002374AE3B0057999A /* SharedClass.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		23BEAB032374B57E0057999A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23BEAB002374AE3B0057999A /* SharedClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23BEAB042374B58F0057999A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23BEAAFC2374ACAB0057999A /* iOSClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23BEAB052374B59A0057999A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23BEAAFE2374ACE70057999A /* tvOSClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23BEAB062374B5AC0057999A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23BEAB072374B5F00057999A /* View.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23BEAB082374B5F00057999A /* View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
