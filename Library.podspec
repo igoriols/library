@@ -84,6 +84,7 @@ Pod::Spec.new do |spec|
   spec.ios.resources = 'Library-iOS/Resources/**/*.{xib,ttf,png,xcassets}'
   spec.ios.source_files = ['Shared/Classes/**/*', 'Library-iOS/Classes/**/*']
   spec.tvos.source_files = ['Shared/Classes/**/*', 'Library-tvOS/Classes/**/*']
+  spec.tvos.exclude_files = 'Library-iOS/Resources/**/*.{xib,ttf,png,xcassets}'
  
   # spec.public_header_files = "Classes/**/*.h"
 
